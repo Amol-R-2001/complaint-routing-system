@@ -1,0 +1,37 @@
+complaint_text,officer,priority,eta_days
+Internet not working,Network Team,High,1
+WiFi disconnecting frequently,Network Team,High,2
+Salary not credited,Finance Team,Medium,4
+Salary not received,Finance Team,High,3
+Laptop not starting,IT Support,High,2
+VPN not connecting,Network Team,Medium,2
+PF issue unresolved,HR Team,Medium,5
+Software installation issue,IT Support,Low,4
+Email not syncing,IT Support,Medium,3
+Need leave approval,HR Team,Low,5
+Server down issue,Network Team,High,1
+Mouse not working,IT Support,Low,3
+Keyboard issue,IT Support,Low,2
+Internet speed very slow,Network Team,Medium,2
+Salary delay issue,Finance Team,High,5
+Leave balance incorrect,HR Team,Medium,4
+Printer not working,IT Support,Low,3
+System hanging frequently,IT Support,Medium,2
+VPN access denied,Network Team,High,1
+Bonus not received,Finance Team,Medium,5
+complaint,department
+Internet not working,IT Support
+Laptop is very slow,IT Support
+Unable to login to portal,IT Support
+Mouse not working,IT Support
+Printer not working,IT Support
+Salary not credited,Finance
+Incorrect salary amount,Finance
+Reimbursement not received,Finance
+Payment issue,Finance
+Leave not approved,HR
+Attendance issue,HR
+Employee behavior complaint,HR
+Need ID card renewal,Admin
+Office cleaning issue,Admin
+Projector not working in meeting room,Admins
