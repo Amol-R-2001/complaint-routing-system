@@ -12,16 +12,18 @@ An advanced multilingual AI-powered complaint routing system that automatically:
 
 # Features
 
-## Multimodal Input
-- Text
-- Audio
-- Video
+### 🧠 AI Features
+- Automatic complaint classification
+- Department assignment
+- Priority prediction (High / Medium / Low)
+- ETA prediction (days)
 
-## AI Capabilities
-- Officer Prediction
-- Priority Classification
-- ETA Prediction
-- Semantic Similarity Search
+---
+
+### 🎤 Multimodal Input
+- Text input
+- Audio input (Whisper AI)
+- Video input (MoviePy + Whisper)
 
 ## Multilingual Support
 Supports English and Indian languages.
@@ -39,6 +41,13 @@ Supports English and Indian languages.
 | RandomForest | Regression |
 | Whisper | Speech-to-Text |
 | MoviePy | Video Processing |
+
+---
+## 🧪 Machine Learning Models
+
+### 🔹 Officer Prediction
+- Model: XGBoost Classifier
+- Output: IT / HR / Finance / Admin
 
 ---
 
@@ -94,12 +103,12 @@ streamlit run app.py
 
 ---
 
-# Evaluation Metrics
+## 📊 Evaluation Metrics
 
-- Accuracy
-- F1 Score
-- MAE
-- Recall@K
+- Accuracy (Officer prediction)
+- F1 Score (Priority classification)
+- MAE (ETA prediction)
+- Recall@K (Similarity search)
 
 ---
 
@@ -111,6 +120,38 @@ streamlit run app.py
 - Better ETA forecasting
 
 ---
+## ▶️ How to Run
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+
+2. Train models
+cd training
+python train_models.py
+
+4. Run Streamlit app
+cd app
+streamlit run app.py
+---
+## 🔐 Login Credentials
+Username: Amol_2001
+Password: Amol@2001
+---
+💡 Example
+
+Input:
+
+Internet is not working in office
+
+Output:
+
+Assigned Officer: IT Support
+Priority: High
+ETA: 3 days
+Similar Complaints:
+WiFi disconnecting frequently
+Internet speed very slow
 
 # Author
 
